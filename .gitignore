@@ -1,0 +1,52 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python virtual environment
+venv/
+env/
+
+# Ignore the Django development server's default SQLite database
+*.db
+
+# Ignore static files collected by Django
+static/
+
+# Ignore media files uploaded by users
+media/
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore cache and temporary files
+__pycache__/
+*.swp
+*.swo
+
+# Ignore database migrations
+**/migrations/
+
+# Ignore secret keys and sensitive information
+.secret_key
+.env
+
+# Ignore other miscellaneous files and directories
+.DS_Store
+*.pyo
+*.bak
+*.tmp
+
+# Ignore compiled JavaScript files
+*.js.map
+
+# Ignore compiled CSS files
+*.css.map
